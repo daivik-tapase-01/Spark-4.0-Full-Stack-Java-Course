@@ -105,42 +105,43 @@ public class day3 {
         // System.out.println("I don`t have sufficient money.");
         // }
 
-        // System.out.println("Enter number: ");
-        // int num = sc.nextInt();
-        // switch (num) {
-        // case 1:
-        // System.out.println("value is 1");
-        // break;
-        // case 2:
-        // System.out.println("value is 2");
-        // break;
-        // case 3:
-        // System.out.println("value is 3");
-        // break;
-        // case 4:
-        // System.out.println("value is 4");
-        // break;
-        // default:
-        // System.out.println("not Exist");
-        // }
+        System.out.println("Enter number: ");
+        int num = sc.nextInt();
+        switch (num) {
+            case 1:
+                System.out.println("value is 1");
+                break;
+            case 2:
+                System.out.println("value is 2");
+                break;
+            case 3:
+                System.out.println("value is 3");
+                break;
+            case 4:
+                System.out.println("value is 4");
+                break;
+            default:
+                System.out.println("not Exist");
+        }
 
         // // Loops
 
         // for (int i = 1; i < 6; i++) {
-        //     System.out.println(i);
+        // System.out.println(i);
         // }
 
         // int x = 1;
         // while (x < 6) {
-        //     System.out.println(x);
-        //     x++;
+        // System.out.println(x);
+        // x++;
         // }
 
         // int y = 1;
         // do {
-        //     System.out.println(y);
-        //     y++;
+        // System.out.println(y);
+        // y++;
         // } while (y < 6);
-        
+
+        sc.close();
     }
 }
