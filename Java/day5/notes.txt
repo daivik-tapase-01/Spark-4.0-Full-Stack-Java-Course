@@ -1,0 +1,28 @@
+there are three principles in OPPs
+
+1. Ecapsulation: process of binding data and method in single unit is called encapsulation
+
+2. Inheritance: 
+OverRiding-> using same method but writing on it 
+
+Super keyword: refers to parent object , call parent constructor
+
+single: one child one parent
+multilevel: child-> parent -> grandparent
+hierarchical: one parent, multiple childs
+multiple: not supported 
+
+Base clsss: Child
+Parent class: Father
+Super class: Grandfather
+
+3. Polymorphism: many forms
+types:  
+compile time -> method OverLoding / method resolution should take care vy jvm at compile time 
+run time -> method OverRiding / method 
+
+
+
+4. Abstraction: Hinding internal details and showing necessary info 
+hiding: private
+showing: public
