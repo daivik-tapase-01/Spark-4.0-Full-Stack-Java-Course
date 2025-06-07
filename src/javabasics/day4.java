@@ -1,11 +1,11 @@
-package Java;
+package javabasics;
 
 public class day4 {
 
     // Instance
     String name = "daivik";
     int age = 20;
-    static String course = "Java";
+    static String course = "javabasics";
 
     public static void main(String[] args) {
 

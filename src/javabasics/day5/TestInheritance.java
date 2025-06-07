@@ -1,4 +1,4 @@
-package Java.day5;
+package javabasics.day5;
 
 public class TestInheritance {
     public static void main(String[] args) {

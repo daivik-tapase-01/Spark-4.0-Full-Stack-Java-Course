@@ -1,4 +1,4 @@
-package Java;
+package javabasics;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Java;
+package javabasics;
 
 public class ArrayPractice {
     public static void main(String[] args) {

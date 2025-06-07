@@ -1,4 +1,4 @@
-package Java.day5;
+package javabasics.day5;
 
 public class Animal {
     void eat() {
