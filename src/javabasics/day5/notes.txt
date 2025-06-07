@@ -1,7 +1,8 @@
 there are three principles in OPPs
 
-1. Ecapsulation: process of binding data and method in single unit is called encapsulation
+1. Encapsulation: process of binding data and method in single unit is called encapsulation
 
+---------------------------------------------
 2. Inheritance: 
 OverRiding-> using same method but writing on it 
 
@@ -12,17 +13,43 @@ multilevel: child-> parent -> grandparent
 hierarchical: one parent, multiple childs
 multiple: not supported 
 
-Base clsss: Child
+Base class: Child
 Parent class: Father
 Super class: Grandfather
 
+----------------------------------------------
 3. Polymorphism: many forms
-types:  
-compile time -> method OverLoding / method resolution should take care vy jvm at compile time 
-run time -> method OverRiding / method 
+types:
 
+method signature = name + parameter
+note: method overloading means declair multiple method with same name but having different method signature
+-> in method overloading we have 3 rules
+1. method name must be same
+2. list of parameters must be different
+3. return type is not considered in method overloading
 
+OverRiding
+method overriding means changes parent imp
+Rules->
+1. method name must be same
+2. list of para must be same
+3. return type must be same
+4. private, final, static method cannot be overridden
+5. there must be IS A relationship between classes inheritance
 
-4. Abstraction: Hinding internal details and showing necessary info 
+compile time -> method OverLoading
+method resolution should take care by jvm at compile time
+
+run time -> method OverRiding
+method resolution should take care by jvm at run time
+overriding is called runtime polymorphism
+
+----------------------------------------------
+4. Abstraction: Hiding internal details and showing necessary info
 hiding: private
-showing: public
+showing: method
+
+--------------------------------------------
+dynamic dispatcher
+animal a = new dog(); possible
+dog d = new animal(); not possible
