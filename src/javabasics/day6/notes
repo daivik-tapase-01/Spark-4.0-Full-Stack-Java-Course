@@ -1,0 +1,17 @@
+String
+
+A String in java is an Class that represent a sequence of characters
+
+How to create a String Object->
+1. using literal  ... it gets created in SCP / we use this for Memory Management
+2. using new keyword  ... it gets created in Heap and a copy is created in SCP
+
+String name = "Daivik"  --> String Constant Pool (SCP)
+String name = new String();  --> Heap
+
+== -> in case of primitive it compares values
+== -> in case of non primitive it compares reference
+.equals()
+
+1. StringBuffer-> mutable, Thread safe, slower
+2. StringBuilder-> mutable, not Thread safe, faster
