@@ -5,9 +5,6 @@ shelf/
 workspace.xml
 mavenHomeManager.xml
 
-# VS Code settings (optional)
-.vscode/
-
 # Compiled output
 /out/
 *.class
@@ -28,3 +25,6 @@ build/
 # Local environment files
 *.env
 *.local
+
+# VS Code settings (optional)
+.vscode/

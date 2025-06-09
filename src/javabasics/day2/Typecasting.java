@@ -1,4 +1,4 @@
-package javabasics;
+package javabasics.day2;
 public class Typecasting {
     public static void main(String[] args) {
         // Implicit casting
