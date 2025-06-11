@@ -1,4 +1,4 @@
-package javabasics.day5;
+package javabasics.OPPs;
 
 class Species{
     void fly(){

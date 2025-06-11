@@ -1,4 +1,4 @@
-package javabasics.day4;
+package javabasics.introJava;
 
 public class ArrayPractice {
     public static void main(String[] args) {

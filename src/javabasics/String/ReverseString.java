@@ -1,4 +1,4 @@
-package javabasics.day6;
+package javabasics.String;
 
 public class ReverseString {
     public static void main(String[] args) {

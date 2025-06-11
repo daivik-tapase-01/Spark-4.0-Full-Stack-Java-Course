@@ -1,4 +1,4 @@
-package javabasics.day4;
+package javabasics.introJava;
 
 public class day4 {
 

@@ -1,4 +1,4 @@
-package javabasics.day5;
+package javabasics.OPPs;
 
 public class Student {
     String name;

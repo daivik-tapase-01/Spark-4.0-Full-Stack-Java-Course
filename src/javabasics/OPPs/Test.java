@@ -1,4 +1,4 @@
-package javabasics.day5;
+package javabasics.OPPs;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javabasics.day3;
+package javabasics.introJava;
 
 import java.util.*;
 
