@@ -1,0 +1,54 @@
+Multithreading:
+Process of creating multiple thread
+Multithreading means executing multiple thread simultaneously to achieve concurrent execution
+
+Multicasting:
+1. process based multitasking -> executing many task simultaneously where each task is separate independent process
+2. Tread based multitasking -> executing many task simultaneously where each task is separate independent part of same program/process is called thread based multitasking
+
+process : an independent running program
+thread : a lightweight executable part of process
+
+we have two options to create thread
+1. by extending Thread class
+2. by implementing Runnable interface
+
+Thread Schedular:
+when multiple thread are waiting for execution then which thread will execute first is decided by thread schedular
+
+TS have specific algorithm using it TS decide.
+it is not a standard process it depends on jvm to jvm
+TS decide on the basis of priority and initially default priority of main thread
+
+Relationship between start() and run()
+1. when we use start() method, a new thread will be created and this method is responsible to call run method
+2. when we use run() in place oof start() then no thread  will be created
+
+Thread life cycle
+new : t.start() ->
+ready : TS ->
+running : if run() method complete ->
+dead
+
+2. Implementing runnable interface
+
+
+Thread priority
+1. min-priority > 1
+2. norm-priority > 5
+3. max-priority > 10
+
+Intermediate:
+
+Methods to prevent thread execution
+1. yield() -> I am willing to pause and give a chance to a thread of equal priority
+note: it`s not guaranteed it is just a signal or command
+
+2. join() -> when one thread calls join() on another, I says: I will wait until you are done
+
+3. sleep() -> sleep method pause the current thread for a specified number of millisecond
+
+
+
+** Synchronization
+
