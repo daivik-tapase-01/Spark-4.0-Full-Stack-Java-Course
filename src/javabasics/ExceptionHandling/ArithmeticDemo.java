@@ -12,6 +12,7 @@ public class ArithmeticDemo {
         } catch (Exception e) {
             System.out.println(e);
             System.out.println(e.getMessage());
+//            System.exit(0);
 //            e.printStackTrace();
         }finally {
             System.out.println("finally always runs");
@@ -23,11 +24,13 @@ public class ArithmeticDemo {
 
         String n = null;
 
-//        try{
-//            int length = n.length();
-//        }catch (ArithmeticException e){
-//            System.out.println(e);
-//        }
+        try{
+            int length = n.length();
+        }catch (ArithmeticException e){
+            System.out.println(e);
+        }catch(NullPointerException e1){
+            System.out.println(e1.getMessage());
+        }
 
         // child parent exception
 
@@ -41,12 +44,16 @@ public class ArithmeticDemo {
             System.out.println("exception");
         }
 
+        // IO Exception
+
         FileReader file = null;
         try{
             file = new FileReader("notes.txt");
         }catch (IOException e){
             System.out.println(e);
+            System.out.println(e.getMessage());
         }finally {
+            // file.close();
             System.out.println("finally");
         }
 

@@ -1,4 +1,24 @@
+**Exception Handling
+an exception is runtime object representing a problem that interrupts the flow of your program
 
+an unwanted event that interrupts the flow of the program
+
+Examples: ATM cash -> Insufficient balance
+Car -> low fuel
+in java such situations are objects and every exception is an object
+
+**Types of Exceptions:
+1. Checked Exception: these exceptions force compiler to handle explicitly
+these exception must be handle in try and catch or throws
+2. Unchecked Exception: these are the exception which not checked at compile time
+these exception will occur during execution
+
+note: whether exception is checked or unchecked compulsory it should occur ar runtime only and there is no chance of occurring any exception at compile time
+
+Full checked: a checked exception is said to be fully checked if and only if it`s child classes are also checked.
+Ex. IO Exception and Interrupted execution
+
+Partially checked: a checked exception is said to be partially checked if and only if  it`s child classes are unchecked.
 
 **How to handle exception
 
@@ -15,3 +35,22 @@ try{
 }finally{
 
 }
+
+** Throws
+in java we will use throws with method signature, when a method declare with throws keyword, it means that the responsibility of handling exception is passed to the caller method
+
+throws-> delegating responsibility to caller method
+checked exception
+if I do throws then I have chance to handle exception in parent method
+child -> pass responsibility to -> parent
+
+DEH(default exception handler)-> JVM handle the exception when it is not handle by programmer
+any uncaught exception
+DEH will handle the exception
+
+throw-> used for making an object
+
+
+custom exception
+we use default exception and create a custom exception which will look better to user
+
