@@ -1,0 +1,17 @@
+
+
+**How to handle exception
+
+1. Try-catch-finally
+try: risky code will be place here
+catch: handles the exception
+finally: always execute(clean code)
+
+syntax:
+try{
+
+}catch(exception e){
+
+}finally{
+
+}
