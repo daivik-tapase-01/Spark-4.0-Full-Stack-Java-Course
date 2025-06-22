@@ -1,0 +1,2 @@
+Synchronization:
+In multithreading, synchronization is important to make sure multiple threads safely work on shared resources.
