@@ -1,2 +1,23 @@
 Synchronization:
 In multithreading, synchronization is important to make sure multiple threads safely work on shared resources.
+
+synchronization method or block which is good practice?
+block synchronization is good practice
+block lock a thread and releases it for another thread to use
+
+Inter Thread communication
+1. wait()
+2. notify()
+3. notifyAll()
+
+-- wait() - this method is called on an object within a synchronized context/area to make the current wait until another thread invokes notify() or notifyAll()
+when thread calls wait() it release the lock on the object and enter into the waiting state
+
+-- Notify() - this is called on an object within synchronized context to wake up a waiting thread.
+when notify() is invoked it notifies on of the thread that are in waiting on the object to wake up.
+the choice of which thread to notify is not specific and depends on the JVM.
+
+-- notifyAll() - this method is similar to notify(), but it wakes up all thread that are waiting on the same object
+
+Qu. which all methods are release and acquire lock in multithreading?
+
