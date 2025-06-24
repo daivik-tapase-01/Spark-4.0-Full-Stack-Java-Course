@@ -1,0 +1,34 @@
+Interface & Abstract Class
+
+Abstract: abstract class in java is class that cannot be instantiated.
+Abstract method: method without body
+Concrete method: with body
+
+when class is abstract class?
+1. jab class me koi bhi ek abstract method hota hota hai
+
+Abstract class is not able to achieve 100% abstraction
+Interface is able to achieve 100% abstraction
+
+1. all methods are implicitly public and abstract
+2. we can`t create object of interface
+3. all variable are public final static
+4. until java 1.8 we don`t have any concrete method inside interfaces after java 1.8 we can put default and static method
+
+
+* in real time abstract is not used much, most of the time interface will be used
+
+1. when you have 50% information about the class action then go for abstract class
+Animal{
+    concrete...
+    abstract method
+}
+
+2. use interface when we don`t have any information about the class, and we want the child to implement and give implementation
+
+interface --- 100% abstract
+abstract --- not 100% abstract
+
+class -- extends -- class
+class -- implements -- interface
+interface -- extends -- interface
