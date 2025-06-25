@@ -1,0 +1,10 @@
+Java 8
+
+1. Functional interface  
+2. Lamda expression
+3. Predicate 
+4. Functions
+5. Stream
+
+Functional interface : it is an interface which only has one abstract method nothing else
+1. Runnable
