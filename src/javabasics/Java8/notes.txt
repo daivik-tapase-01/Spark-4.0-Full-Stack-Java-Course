@@ -8,3 +8,12 @@ Java 8
 
 Functional interface : it is an interface which only has one abstract method nothing else
 1. Runnable
+
+* what?
+an interface with exactly one abstract method
+* why?
+to make java functional, to reduce boilerplate code
+* syntax?
+interface Calcy{
+    int add();
+}
