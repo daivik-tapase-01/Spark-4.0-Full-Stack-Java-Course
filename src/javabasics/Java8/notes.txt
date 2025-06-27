@@ -17,3 +17,24 @@ to make java functional, to reduce boilerplate code
 interface Calcy{
     int add();
 }
+
+functional interface and lambda expression works together
+
+@FunctionalInterface
+public interface Calcy {
+    int add(int a, int b);  // SAM - single abstract method
+}
+@FunctionalInterface- this doesn't allow multiple abstract method in interface
+
+
+** Lambda expression
+1. shorthand to implement a functional interface
+
+why?
+1. no boilerplate code
+2. code looks clean
+
+syntax:
+(parameter) -> {logic}
+
+if you have one line in logic then no need of curly braces
