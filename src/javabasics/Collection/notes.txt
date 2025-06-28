@@ -1,0 +1,71 @@
+**Collection**
+
+Wrapper classes: wrapper classes in java are used to wrap primitive data types
+
+byte -> Byte
+int -> Integer
+short -> Short
+long -> Long
+float -> Float
+double -> Double
+char -> Character
+boolean -> Boolean
+
+why Wrapper classes?
+
+Note: java was designed to be object-oriented, but primitive are not object so we can't preform some operations so we need wrapper classes
+
+1. Collection: group of object
+2. Serialization
+3. Synchronization
+4. Generics
+
+Serialization is converting data from object to binary
+Deserialization is converting data from binary to object
+
+Autoboxing & Unboxing
+int n = 100;
+Integer I = new Integer(10);
+
+Integer I2 = 10; // autoboxing
+
+Integer I = 20;
+int n = I; // integer to primitive (unboxing)
+
+
+what is collection in java?
+in java collection is an object that group multiple elements into single entity.
+e.g. it is like container that hold multiple object into one place.
+
+1. why we need it?
+Array is fixed size and cannot grow and shrink dynamically, but collection can grow or shrink dynamically
+
+in Array only similar type of values we can store but in collection multiple type of object we can store
+
+Collection core package : java.util
+
+Collection Vs Collections
+--------------------------
+Collection -> super interface for List, Set, Queue
+Collections -> utility/helper class with static methods
+
+Collection Hierarchy
+------------------------
+Collection------1. (List) ----- (ArrayList)
+             '              '-- (LinkedList)
+             '              '-- (Vector)   -----(Stack)
+             '
+             '--2. Set ------- (Hashset)
+             '             '-- (LinkedHashSet)
+             '             '-- SortedSet  ------NavigableSet  -------(TreeSet)
+             '
+             '--3. Queue ----- (PriorityQueue)
+                           '-- BlockingQueue  ----- (Priority Blocking Queue)
+                                                 '--(Linked Blocking Queue)
+
+no () - interface
+with ()- class
+
+
+2. interfaces
+3. implementation
