@@ -21,3 +21,13 @@ the choice of which thread to notify is not specific and depends on the JVM.
 
 Qu. which all methods are release and acquire lock in multithreading?
 
+1.5: sync, wait, notify, notifyAll, Thread -----> basic multithreading
+
+1.7: Lock, ReentrantLock, ExecutorService, Future, Callable ----> advance multithreading
+
+
+
+ExecutorService- Thread pool management
+why?
+1. creating many threads using new Thread() is costly
+2. we want to reuse thread via pool
