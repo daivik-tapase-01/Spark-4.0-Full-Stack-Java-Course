@@ -16,5 +16,41 @@ public class ArrayListDemo {
         System.out.println(nums);
 
         System.out.println(nums.get(3));
+
+        System.out.println(nums.size());
+
+        if(nums.isEmpty()){
+            System.out.println("List empty");
+        }else{
+            System.out.println("not empty..");
+        }
+
+        nums.add(3,90);
+        System.out.println(nums);
+
+        nums.remove(3);
+        System.out.println(nums);
+
+        List<Integer> list = new ArrayList<>();
+        for (int i = 1; i <= 5; i++) {
+            list.add(i);
+        }
+        System.out.println("list is: " + list);
+
+        if(list.isEmpty()){
+            System.out.println("list is empty");
+        }else{
+            System.out.println("list is not empty");
+        }
+
+        list.clear();
+        System.out.println("list is: " + list);
+
+        if(list.isEmpty()){
+            System.out.println("list is empty");
+        }else{
+            System.out.println("list is not empty");
+        }
+
     }
 }
