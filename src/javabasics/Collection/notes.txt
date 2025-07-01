@@ -69,7 +69,5 @@ with ()- class
 
 ArrayList - Size(), add(), remove(), clear(), add(idx.ele), isEmpty(), get()
 
-
-
 2. interfaces
 3. implementation
