@@ -7,14 +7,17 @@ public class LinkListDemo {
         LinkedList<String> list = new LinkedList<>();
         list.add("daivik");
         list.add("arjun");
+        list.add("vaibhav");
         list.add("raj");
         list.add("rohit");
 
         String first = list.getFirst();
         String last = list.getLast();
+        String mid = list.get(2);
 
         System.out.println("first element: "+ first);
         System.out.println("last element: "+ last);
+        System.out.println("mid element: "+ mid);
 
 
     }
