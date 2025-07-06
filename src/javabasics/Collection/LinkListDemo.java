@@ -12,12 +12,15 @@ public class LinkListDemo {
         list.add("rohit");
 
         String first = list.getFirst();
+        String peek = list.peek();
         String last = list.getLast();
         String mid = list.get(2);
 
         System.out.println("first element: "+ first);
+        System.out.println("peek element: "+ peek);
         System.out.println("last element: "+ last);
         System.out.println("mid element: "+ mid);
+
 
 
     }
