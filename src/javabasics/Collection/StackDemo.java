@@ -21,5 +21,13 @@ public class StackDemo {
         stack.push(60);
         stack.push(70);
         System.out.println("stack: "+ stack);
+
+        stack.push(121);
+        stack.push(222);
+        System.out.println("stack: "+ stack);
+
+        System.out.println("pop: "+ stack.pop());
+        System.out.println("stack: "+ stack);
+
     }
 }
