@@ -9,5 +9,7 @@ public class VectorDemo {
         vector.add(20);
         vector.add(30);
         System.out.println(vector);
+        vector.clear();
+        System.out.println(vector);
     }
 }
