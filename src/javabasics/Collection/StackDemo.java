@@ -29,5 +29,8 @@ public class StackDemo {
         System.out.println("pop: "+ stack.pop());
         System.out.println("stack: "+ stack);
 
+        System.out.println("pop: "+ stack.pop());
+        System.out.println("stack: "+ stack);
+
     }
 }
