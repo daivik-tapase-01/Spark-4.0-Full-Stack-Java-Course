@@ -11,5 +11,10 @@ public class VectorDemo {
         System.out.println(vector);
         vector.clear();
         System.out.println(vector);
+
+        vector.add(10);
+        vector.add(20);
+        vector.add(30);
+        System.out.println(vector);
     }
 }
