@@ -57,7 +57,10 @@ public class ArrayListDemo {
         while (it.hasNext()){
             int data = it.next();
             if(data == 30){
-
+                System.out.println("removing 30");
+                it.remove();
+            }else{
+                System.out.println(data);
             }
         }
 

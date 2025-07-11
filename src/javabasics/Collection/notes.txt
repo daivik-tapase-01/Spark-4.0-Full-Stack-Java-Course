@@ -71,8 +71,8 @@ ArrayList - Size(), add(), remove(), clear(), add(idx.ele), isEmpty(), get()
 
 to fetch the data we use
 1. Enumeration - used for legacy classes / cant remove elements
-2. Iteration - works for all collection type / Traverse, Fetch
-3. ListIterator -
+2. Iteration - works for all collection type / Traverse, Remove
+3. ListIterator - works only for list type / backword + forward - remove, update, add
 
 
 2. interfaces
