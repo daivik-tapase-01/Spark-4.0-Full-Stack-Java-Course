@@ -1,6 +1,7 @@
 package javabasics.Collection;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -50,6 +51,14 @@ public class ArrayListDemo {
             System.out.println("list is empty");
         }else{
             System.out.println("list is not empty");
+        }
+
+        Iterator<Integer> it = nums.iterator();
+        while (it.hasNext()){
+            int data = it.next();
+            if(data == 30){
+
+            }
         }
 
     }

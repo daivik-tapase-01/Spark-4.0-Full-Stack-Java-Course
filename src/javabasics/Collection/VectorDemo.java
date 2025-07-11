@@ -1,5 +1,6 @@
 package javabasics.Collection;
 
+import java.util.Enumeration;
 import java.util.Vector;
 
 public class VectorDemo {
@@ -16,5 +17,11 @@ public class VectorDemo {
         vector.add(20);
         vector.add(30);
         System.out.println(vector);
+
+        Enumeration<Integer> e = vector.elements();
+        while (e.hasMoreElements()){
+            System.out.println(e.nextElement());
+        }
+
     }
 }
