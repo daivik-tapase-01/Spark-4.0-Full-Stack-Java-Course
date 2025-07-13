@@ -31,6 +31,7 @@ public class HashMapDemo {
             System.out.println(data + " : " + map.get(data));
         }
 
+        System.out.println("--------------------");
         // fetch all values
         for(Integer value: map.values()){
             System.out.println("value: " +value);
