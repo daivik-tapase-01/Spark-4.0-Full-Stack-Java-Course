@@ -27,8 +27,8 @@ class Student{
 public class CustomList {
     public static void main(String[] args) {
         Student s1 = new Student(1, "daivik","java");
-        Student s2 = new Student(1, "vaibhav","webdev");
-        Student s3 = new Student(1, "dipanshu","python");
+        Student s2 = new Student(2, "vaibhav","webdev");
+        Student s3 = new Student(3, "dipanshu","python");
 
         List<Student> studentList = new ArrayList<>();
         studentList.add(s1);

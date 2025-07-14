@@ -75,5 +75,8 @@ to fetch the data we use
 3. ListIterator - works only for list type / backword + forward - remove, update, add
 
 
+Comparable: natural
+Comparator: customizer
+
 2. interfaces
 3. implementation
