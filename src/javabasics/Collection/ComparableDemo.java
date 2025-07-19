@@ -11,7 +11,6 @@ public class ComparableDemo {
         al.add(62);
         al.add(57);
         al.add(23);
-        al.add(23);
         System.out.println(al);
 
         Collections.sort(al);
