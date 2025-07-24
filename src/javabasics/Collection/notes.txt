@@ -77,8 +77,16 @@ to fetch the data we use
 
 Comparable: natural for normal sorting
 uses compare to
+used for predefined classes, used for natural sorting order
+all predefined wrapper classes implements comparable and give implementation to compareTo()
+it works on 3 parameter:
+x < y = -1
+x == y = 0
+x > y = 1
+
 Comparator: customizer for customize sorting
 uses compare
+used customizer class, used for customizer sorting order
 
 2. interfaces
 3. implementation
